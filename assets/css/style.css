@@ -1,1 +1,63 @@
-/*body {background-color: red}*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Prompt', sans-serif;
+}
+
+body {
+	/*background-color: red*/
+
+	}
+
+#main-section {	
+		background-color: #BFC9CA;
+	}
+
+.about {
+	width: 60%;
+	/*margin: 0 auto;*/
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+
+.my-picture {
+	height: 150px;
+	padding: 3px;
+	border-radius: 60%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px
+}	
+
+h1 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 15px
+}
+
+#dev-description {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#portfolio-section {
+	background-color: #82E0AA
+}
+
+#skills-section {
+	background-color: #FAD7A0
+}
+
+#about-section { 
+	background-color: #FADBD8 
+}
+
+#main-section,
+#portfolio-section,
+#skills-section,
+#about-section {
+	height: 100vh;
+}
